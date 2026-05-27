@@ -1,0 +1,13 @@
+# Project 26: Who does what in ELIXIR? Building an agent-driven, low-maintenance "ELIXIR Atlas."
+
+## Abstract
+
+ELIXIR coordinates hundreds of people across platforms, communities, nodes, and focus groups. The information describing this ecosystem – who does what, how activities relate – is scattered across programme documents, websites, registries, and institutional knowledge. For newcomers and participants alike, understanding the full landscape is difficult. For coordinators, detecting overlaps or gaps across platforms requires manually cross-referencing large document sets. The reason this problem persists is lack of ownership: no single party is responsible for an integrated landscape view, and there is no dedicated funding for one. Manual integration efforts cannot be sustained at this scale.
+ 
+ We propose building a public, queryable knowledge graph of the ELIXIR ecosystem in which both creation and maintenance are agent-driven – the ELIXIR Atlas. Using BioCypher and an agentic ingestion pipeline (LLM-driven extraction with human-in-the-loop validation), the Atlas integrates publicly available information – programme texts, bio.tools, FAIRsharing, TeSS, the ELIXIR website – into a structured representation of platforms, activities, people, services, and their relationships. The agent-driven design is the central contribution: it dramatically lowers the human effort required to keep the Atlas current as the programme evolves, making the resource sustainable without a dedicated curation team.
+ 
+ The hackathon will deliver a minimum viable product from public sources only. This MVP is intended to demonstrate value to ELIXIR stakeholders and unlock access to internal documents in subsequent phases. The methodology has been validated in adjacent settings, and early prototypes indicate it can scale to ecosystems of this complexity – making this the right moment to apply it to ELIXIR.
+
+## Co-leads
+
+Sebastian Lobentanzer, Xènia Pérez Sitjà, Shoaib Ahmed Sufi
